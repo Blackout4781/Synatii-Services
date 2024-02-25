@@ -1,6 +1,6 @@
-local Services = loadstring(game:HttpGet('https://raw.githubusercontent.com/Blackout4781/Synatii-Services/Services.lua'))()
-local library = loadstring(game:HttpGet('https://raw.githubusercontent.com/Blackout4781/Synatii-Services/UILibrary.lua'))()
-local AltManagerAPI = loadstring(game:HttpGet('https://raw.githubusercontent.com/Blackout4781/Synatii-Services/classes/AltManagerAPI.lua'))()
+local Services = loadstring(game:HttpGet('https://raw.githubusercontent.com/Blackout4781/Synatii-Services/main/utils/Services.lua'))()
+local library = loadstring(game:HttpGet('https://raw.githubusercontent.com/Blackout4781/Synatii-Services/main/UILibrary.lua'))()
+local AltManagerAPI = loadstring(game:HttpGet('https://raw.githubusercontent.com/Blackout4781/Synatii-Services/main/classes/AltManagerAPI.lua'))()
 
 local Players, GuiService, HttpService, StarterGui, VirtualInputManager, CoreGui = Services:Get('Players', 'GuiService', 'HttpService', 'StarterGui', 'VirtualInputManager', 'CoreGui');
 local LocalPlayer = Players.LocalPlayer;
