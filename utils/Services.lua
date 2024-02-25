@@ -13,19 +13,24 @@ end
 
 setmetatable(Services, {
     __index = function(self, p)
-        if p == 'VirtualInputManager' and vim then
-            return vim
+        local service = rawget(self, p)
+
+        if not service then
+            if p == 'VirtualInputManager' and vim then
+                service = vim
+            else
+                service = game:GetService(p)
+                
+                if p == 'VirtualInputManager' and service then
+                    local constantValue = getServerConstant and getServerConstant('VirtualInputManager') or "DefaultConstant"
+                    service.Name = constantValue
+                end
+            end
+
+            rawset(self, p, service)
         end
 
-        local service = game:GetService(p)
-        if p == 'VirtualInputManager' and service then
-            -- Assuming a default value if getServerConstant is not defined
-            local constantValue = getServerConstant and getServerConstant('VirtualInputManager') or "DefaultConstant"
-            service.Name = constantValue
-        end
-
-        rawset(self, p, service)
-        return rawget(self, p)
+        return service
     end,
 })
 
