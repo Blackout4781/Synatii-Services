@@ -1,6 +1,6 @@
-local Services = sharedRequire('@utils/Services.lua');
+local Services = sharedRequire('https://github.com/Blackout4781/Synatii-Services/utils/Services.lua');
 local UserInputService = Services:Get('UserInputService');
-local Maid = sharedRequire('@utils/Maid.lua');
+local Maid = sharedRequire('https://github.com/Blackout4781/Synatii-Services/utils/Maid.lua');
 
 local keybindVisualizer = {};
 keybindVisualizer.__index = keybindVisualizer;
