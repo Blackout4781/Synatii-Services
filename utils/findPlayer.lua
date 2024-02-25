@@ -1,4 +1,4 @@
-local Services = loadstring(game:HttpGet('https://raw.githubusercontent.com/Blackout4781/Synatii-Services/utils/Services.lua'))()
+local Services = loadstring(game:HttpGet('https://raw.githubusercontent.com/Blackout4781/Synatii-Services/main/utils/Services.lua'))()
 local Players = Services:Get('Players');
 
 return function (playerName)
