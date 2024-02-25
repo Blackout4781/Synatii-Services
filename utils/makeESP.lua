@@ -1,7 +1,7 @@
-local Utility = sharedRequire('https://github.com/Blackout4781/Synatii-Services/utils/Utility.lua');
-local createBaseESP = sharedRequire('https://github.com/Blackout4781/Synatii-Services/utils/createBaseESP.lua');
-local library = sharedRequire('https://github.com/Blackout4781/Synatii-Services/UILibrary.lua');
-local toCamelCase = sharedRequire('https://github.com/Blackout4781/Synatii-Services/utils/toCamelCase.lua');
+local Utility = loadstring(game:HttpGet('https://raw.githubusercontent.com/Blackout4781/Synatii-Services/utils/Utility.lua'))()
+local createBaseESP = loadstring(game:HttpGet('https://raw.githubusercontent.com/Blackout4781/Synatii-Services/utils/createBaseESP.lua'))()
+local library = loadstring(game:HttpGet('https://raw.githubusercontent.com/Blackout4781/Synatii-Services/UILibrary.lua'))()
+local toCamelCase = loadstring(game:HttpGet('https://raw.githubusercontent.com/Blackout4781/Synatii-Services/utils/toCamelCase.lua'))()
 
 local sectionIndex = 1;
 local addedESPSearch = false;
