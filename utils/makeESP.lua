@@ -1,7 +1,7 @@
-local Utility = sharedRequire('@utils/Utility.lua');
-local createBaseESP = sharedRequire('@utils/createBaseESP.lua');
-local library = sharedRequire('@UILibrary.lua');
-local toCamelCase = sharedRequire('@utils/toCamelCase.lua');
+local Utility = sharedRequire('https://github.com/Blackout4781/Synatii-Services/utils/Utility.lua');
+local createBaseESP = sharedRequire('https://github.com/Blackout4781/Synatii-Services/utils/createBaseESP.lua');
+local library = sharedRequire('https://github.com/Blackout4781/Synatii-Services/UILibrary.lua');
+local toCamelCase = sharedRequire('https://github.com/Blackout4781/Synatii-Services/utils/toCamelCase.lua');
 
 local sectionIndex = 1;
 local addedESPSearch = false;
