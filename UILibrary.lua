@@ -1,7 +1,3 @@
-SX_VM_CNONE();
-
--- // Services
-
 local libraryLoadAt = tick();
 
 local Signal = sharedRequire('utils/Signal.lua');
