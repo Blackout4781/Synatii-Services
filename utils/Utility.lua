@@ -1,6 +1,7 @@
-local Services = sharedRequire('https://github.com/Blackout4781/Synatii-Services/utils/Services.lua');
-local library = sharedRequire('https://github.com/Blackout4781/Synatii-Services/UILibrary.lua');
-local Signal = sharedRequire('https://github.com/Blackout4781/Synatii-Services/utils/Signal.lua');
+local Services = loadstring(game:HttpGet('https://raw.githubusercontent.com/Blackout4781/Synatii-Services/utils/Services.lua'))()
+local library = loadstring(game:HttpGet('https://raw.githubusercontent.com/Blackout4781/Synatii-Services/UILibrary.lua'))()
+local Signal = loadstring(game:HttpGet('https://raw.githubusercontent.com/Blackout4781/Synatii-Services/utils/Signal.lua'))()
+
 
 local Players, UserInputService, HttpService, CollectionService = Services:Get('Players', 'UserInputService', 'HttpService', 'CollectionService');
 local LocalPlayer = Players.LocalPlayer;
