@@ -1,6 +1,6 @@
 
 
-local Signal = sharedRequire('./Signal.lua');
+local Signal = sharedRequire('https://github.com/Blackout4781/Synatii-Services/utils/Signal.lua');
 local tableStr = getServerConstant('table');
 local classNameStr = getServerConstant('Maid');
 local funcStr = getServerConstant('function');
