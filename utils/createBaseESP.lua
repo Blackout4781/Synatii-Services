@@ -1,4 +1,3 @@
-SX_VM_CNONE();
 local Maid = sharedRequire('Maid.lua');
 local Services = sharedRequire('Services.lua');
 
