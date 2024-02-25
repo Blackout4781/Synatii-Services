@@ -1,7 +1,7 @@
 local Maid = sharedRequire('https://github.com/Blackout4781/Synatii-Services/utils/Maid.lua');
 local Services = sharedRequire('https://github.com/Blackout4781/Synatii-Services/utils/Services.lua');
 
-local toCamelCase = sharedRequire('toCamelCase.lua');
+local toCamelCase = sharedRequire('https://github.com/Blackout4781/Synatii-Services/utils/toCamelCase.lua');
 local library = sharedRequire('https://github.com/Blackout4781/Synatii-Services/UILibrary.lua');
 
 local Players, CorePackages, HttpService = Services:Get('Players', 'CorePackages', 'HttpService');
