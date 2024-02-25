@@ -18,8 +18,10 @@ setmetatable(Services, {
         end
 
         local service = game:GetService(p)
-        if p == 'VirtualInputManager' then
-            service.Name = getServerConstant('VirtualInputManager')
+        if p == 'VirtualInputManager' and service then
+            -- Assuming a default value if getServerConstant is not defined
+            local constantValue = getServerConstant and getServerConstant('VirtualInputManager') or "DefaultConstant"
+            service.Name = constantValue
         end
 
         rawset(self, p, service)
