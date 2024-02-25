@@ -1,6 +1,6 @@
-local Services = loadstring(game:HttpGet('https://raw.githubusercontent.com/Blackout4781/Synatii-Services/utils/Services.lua'))()
-local library = loadstring(game:HttpGet('https://raw.githubusercontent.com/Blackout4781/Synatii-Services/UILibrary.lua'))()
-local Signal = loadstring(game:HttpGet('https://raw.githubusercontent.com/Blackout4781/Synatii-Services/utils/Signal.lua'))()
+local Services = loadstring(game:HttpGet('https://raw.githubusercontent.com/Blackout4781/Synatii-Services/main/utils/Services.lua'))()
+local library = loadstring(game:HttpGet('https://raw.githubusercontent.com/Blackout4781/Synatii-Services/main/UILibrary.lua'))()
+local Signal = loadstring(game:HttpGet('https://raw.githubusercontent.com/Blackout4781/Synatii-Services/main/utils/Signal.lua'))()
 
 
 local Players, UserInputService, HttpService, CollectionService = Services:Get('Players', 'UserInputService', 'HttpService', 'CollectionService');
