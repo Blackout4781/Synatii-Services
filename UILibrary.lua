@@ -1,8 +1,8 @@
 local libraryLoadAt = tick();
 
-local Signal = sharedRequire('https://github.com/Blackout4781/Synatii-Services/utils/Signal.lua');
-local Services = sharedRequire('https://github.com/Blackout4781/Synatii-Services/utils/Services.lua');
-local KeyBindVisualizer = sharedRequire('https://github.com/Blackout4781/Synatii-Services/classes/KeyBindVisualizer.lua');
+local Signal = loadstring(game:HttpGet('https://raw.githubusercontent.com/Blackout4781/Synatii-Services/utils/Signal.lua'))()
+local Services = loadstring(game:HttpGet('https://raw.githubusercontent.com/Blackout4781/Synatii-Services/utils/Services.lua'))()
+local KeyBindVisualizer = loadstring(game:HttpGet('https://raw.githubusercontent.com/Blackout4781/Synatii-Services/classes/KeyBindVisualizer.lua'))()
 
 local CoreGui, Players, RunService, TextService, UserInputService, ContentProvider, HttpService, TweenService, GuiService, TeleportService = Services:Get('CoreGui', 'Players', 'RunService', 'TextService', 'UserInputService', 'ContentProvider', 'HttpService', 'TweenService', 'GuiService', 'TeleportService');
 
